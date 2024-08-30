@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face{
+    font-family:'Barlow Condensed';
+    src:url('../starter-code/assets/BarlowCondensed-Regular.ttf')
+    format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
