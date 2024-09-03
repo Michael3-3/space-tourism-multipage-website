@@ -1,14 +1,14 @@
 {
   "name": "space-tourism-website-main",
   "version": "1.0.0",
-  "homepage": "https://Michael3-3.github.io/space-tourism-multipage-website",
+  "homepage": "https://michael3-3.github.io/space-tourism-multipage-website/",
   "description": "![Design preview for the Space tourism website coding challenge](./preview.jpg)",
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html",
     "test": "jest",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
