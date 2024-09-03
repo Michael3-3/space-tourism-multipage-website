@@ -4,8 +4,8 @@
   "homepage": "https://michael3-3.github.io/space-tourism-multipage-website/",
   "description": "![Design preview for the Space tourism website coding challenge](./preview.jpg)",
   "scripts": {
-    "start": "parcel ./src/index.html",
-    "build": "parcel build ./src/index.html",
+    "start": "parcel ./public/index.html",
+    "build": "parcel build ./public/index.html",
     "test": "jest",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
