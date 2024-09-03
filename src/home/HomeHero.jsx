@@ -23,7 +23,7 @@ const HomeHero = ()=>{
              <Link to='/destination'>
                         <div
               id="bigbutton"
-              class="rounded-full bg-white w-[200px] h-[200px] md:border-[30px] flex items-center cursor-pointer justify-center">
+              class="rounded-full hover:scale-125 duration-300 ease-in-out bg-white w-[200px] h-[200px] md:border-[30px] flex items-center cursor-pointer justify-center">
               <p class="text-xl font-normal tracking-wide">EXPLORE</p>
             </div>
             </Link>

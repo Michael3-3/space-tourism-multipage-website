@@ -753,6 +753,10 @@ img, video {
   transition-duration: .1s;
 }
 
+.duration-300 {
+  transition-duration: .3s;
+}
+
 .duration-500 {
   transition-duration: .5s;
 }
@@ -770,6 +774,12 @@ img, video {
   src: url("BarlowCondensed-Regular.45e6c2a3.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
+}
+
+.hover\:scale-125:hover {
+  --tw-scale-x: 1.25;
+  --tw-scale-y: 1.25;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .hover\:border-b-2:hover {

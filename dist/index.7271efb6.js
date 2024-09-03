@@ -27396,7 +27396,7 @@ const HomeHero = ()=>{
                         to: "/destination",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                             id: "bigbutton",
-                            class: "rounded-full bg-white w-[200px] h-[200px] md:border-[30px] flex items-center cursor-pointer justify-center",
+                            class: "rounded-full hover:scale-125 duration-300 ease-in-out bg-white w-[200px] h-[200px] md:border-[30px] flex items-center cursor-pointer justify-center",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                 class: "text-xl font-normal tracking-wide",
                                 children: "EXPLORE"
